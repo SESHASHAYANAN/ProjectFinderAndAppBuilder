@@ -1,0 +1,440 @@
+/* VoiceAssistant.css */
+.voice-assistant-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.voice-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.listen-button {
+  padding: 14px 28px;
+  font-size: 16px;
+  background-color: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1;
+  max-width: 200px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.listen-button:hover {
+  background-color: #3551d1;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(73, 108, 247, 0.3);
+}
+
+.listen-button:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.listen-button.listening {
+  background-color: #f44336;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(244, 67, 54, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(244, 67, 54, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(244, 67, 54, 0);
+  }
+}
+
+.voice-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.voice-selector label {
+  font-weight: 600;
+  color: #555;
+  font-size: 15px;
+}
+
+.voice-selector select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background-color: #f9f9f9;
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23555' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 40px;
+}
+
+.voice-selector select:focus {
+  outline: none;
+  border-color: #4a6cf7;
+  box-shadow: 0 0 0 2px rgba(74, 108, 247, 0.2);
+}
+
+.manual-input {
+  margin-bottom: 25px;
+}
+
+.manual-input form {
+  display: flex;
+  gap: 10px;
+}
+
+.manual-input input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  font-size: 15px;
+}
+
+.manual-input input:focus {
+  outline: none;
+  border-color: #4a6cf7;
+  box-shadow: 0 0 0 2px rgba(74, 108, 247, 0.2);
+}
+
+.manual-input button {
+  background-color: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.manual-input button:hover {
+  background-color: #3551d1;
+}
+
+.manual-input button:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+}
+
+.conversation-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.user-message,
+.assistant-message {
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.user-message {
+  background-color: #f0f7ff;
+  border-left: 4px solid #4a6cf7;
+}
+
+.assistant-message {
+  background-color: #f0fff4;
+  border-left: 4px solid #4caf50;
+}
+
+.user-message h3,
+.assistant-message h3 {
+  margin-top: 0;
+  font-size: 17px;
+  color: #333;
+  font-weight: 600;
+}
+
+.loading-indicator {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 20px 0;
+  animation: fadeInOut 1.5s infinite alternate;
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.speak-button {
+  margin-top: 12px;
+  padding: 10px 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+
+.speak-button:hover {
+  background-color: #388e3c;
+  transform: translateY(-2px);
+}
+
+.speak-button::before {
+  content: "🔊";
+  font-size: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 650px) {
+  .voice-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .listen-button {
+    max-width: none;
+  }
+
+  .manual-input form {
+    flex-direction: column;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.voice-assistant-container {
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  margin: 0 auto;
+}
+
+.voice-assistant-header {
+  background-color: #0078d7;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  font-weight: 500;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.voice-assistant-header h2 {
+  margin: 0;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.voice-assistant-messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #888;
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #0078d7;
+  opacity: 0.5;
+}
+
+.message {
+  margin-bottom: 16px;
+  max-width: 80%;
+  display: flex;
+}
+
+.message.user {
+  align-self: flex-end;
+}
+
+.message.assistant {
+  align-self: flex-start;
+}
+
+.message-bubble {
+  padding: 12px 16px;
+  border-radius: 18px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.user .message-bubble {
+  background-color: #e1f5fe;
+  color: #01579b;
+  border-bottom-right-radius: 4px;
+}
+
+.assistant .message-bubble {
+  background-color: #0078d7;
+  color: white;
+  border-bottom-left-radius: 4px;
+}
+
+.voice-assistant-controls {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+  border-top: 1px solid #eee;
+}
+
+.control-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.control-button svg {
+  font-size: 18px;
+}
+
+.control-button.start {
+  background-color: #0078d7;
+  color: white;
+}
+
+.control-button.start:hover {
+  background-color: #006cc1;
+}
+
+.control-button.stop {
+  background-color: #e53935;
+  color: white;
+}
+
+.control-button.stop:hover {
+  background-color: #d32f2f;
+}
+
+.control-button.stop-speaking {
+  background-color: #ff9800;
+  color: white;
+}
+
+.control-button.stop-speaking:hover {
+  background-color: #f57c00;
+}
+
+.control-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.voice-assistant-status {
+  font-size: 0.9em;
+  text-align: center;
+  padding: 8px;
+  color: #666;
+  background-color: white;
+}
+
+/* Animation for the listening state */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.voice-assistant-status p {
+  margin: 0;
+  animation: pulse 1.5s infinite ease-in-out;
+}
