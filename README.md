@@ -1,221 +1,202 @@
-
-  <!-- Main header and description (centered) -->
-  <div style="text-align: center;">
+<div style="width: 100%; margin: auto; font-family: Arial, sans-serif; line-height: 1.6;">
+  
+  <!-- Main header and description -->
+  <div style="text-align: center; margin-bottom: 2rem;">
     <h1>ORCA - GitHub Exploration &amp; Development Assistant</h1>
-    <p>Intelligent AI-powered development platform integrating Microsoft's tools for seamless code exploration, analysis, generation, and deployment</p>
+    <p style="font-size: 1.1rem; max-width: 800px; margin: auto;">
+      Intelligent AI-powered development platform integrating Microsoft's tools for seamless code exploration, analysis, generation, and deployment.
+    </p>
     <h2>ORCA Platform</h2>
     <p>Features | Microsoft Integrations | Languages | React | Version | License</p>
   </div>
 
-  <!-- Table of contents -->
+  <!-- Table of Contents -->
   <h2>📋 Table of Contents</h2>
   <ul>
     <li><a href="#project-overview">Project Overview</a></li>
     <li><a href="#key-features">Key Features</a></li>
-    <li><a href="#page-by-page-exploration">Page-by-Page Exploration</a></li>
-    <li><a href="#microsoft-technology-integration">Microsoft Technology Integration</a></li>
-    <li><a href="#architecture">Architecture</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#deployment">Deployment</a></li>
+    <li><a href="#microsoft-integrations">Microsoft Integrations</a></li>
+    <li><a href="#pages">Pages &amp; Navigation</a></li>
+    <li><a href="#architecture-diagrams">Architecture &amp; Integration Diagrams</a></li>
+    <li><a href="#installation-usage-deployment">Installation, Usage &amp; Deployment</a></li>
+    <li><a href="#app-creator">App Creator</a></li>
     <li><a href="#license">License</a></li>
   </ul>
 
-  <!-- Project Overview -->
+  <!-- Project Overview Section -->
   <h2 id="project-overview">🚀 Project Overview</h2>
   <p>
-    ORCA provides an integrated environment where developers can seamlessly search for GitHub projects, analyze codebases, generate code with AI assistance, create applications from scratch, and deploy directly to GitHub repositories. The platform leverages Microsoft's Azure, VS Code, Copilot, and Azure Speech services to deliver an intelligent, voice-enabled development experience.
+    ORCA provides a unified environment where developers can search for GitHub projects, analyze codebases with AI assistance, generate production-level code, create applications from scratch, and deploy directly to GitHub repositories. The platform leverages Microsoft’s Azure, Visual Studio Code inspiration, GitHub Copilot, and Azure Speech Services to deliver an intelligent, voice-enabled development experience.
   </p>
 
-  <!-- Key Features -->
+  <!-- Key Features Section -->
   <h2 id="key-features">✨ Key Features</h2>
   
   <h3>🔍 GitHub Repository Exploration</h3>
   <ul>
-    <li>Advanced repository search with keyword filtering</li>
-    <li>VS Code-inspired file explorer and code viewer</li>
-    <li>Syntax highlighting and code formatting</li>
-    <li>AI-powered codebase analysis</li>
-    <li>Issue and security vulnerability detection</li>
+    <li>Advanced repository search using keyword filtering and AI suggestions.</li>
+    <li>VS Code–inspired file explorer and code viewer with syntax highlighting.</li>
+    <li>Smart repository content retrieval through GitHub’s API.</li>
   </ul>
   
-  <h3>🧠 AI-Powered Code Analysis</h3>
+  <h3>🧠 AI-Powered Code Analysis &amp; Generation</h3>
   <ul>
-    <li>Comprehensive codebase structure explanations</li>
-    <li>Code quality rating system</li>
-    <li>Business purpose and market positioning insights</li>
-    <li>File-specific detailed analysis</li>
-    <li>Improvement suggestions and best practices</li>
+    <li>Context-aware analysis of code for bug detection and improvements.</li>
+    <li>Generates production-ready code with proper error handling and modern patterns.</li>
+    <li>Integrates AI insights via GitHub Copilot and Azure AI services.</li>
   </ul>
   
-  <h3>💻 Code Generation</h3>
+  <h3>🛠️ App Creation &amp; Deployment</h3>
   <ul>
-    <li>Context-aware, style-matching code creation</li>
-    <li>Support for multiple programming languages</li>
-    <li>Production-ready, well-documented output</li>
-    <li>Direct GitHub repository integration</li>
-    <li>Existing codebase integration capabilities</li>
-  </ul>
-  
-  <h3>🛠️ App Creation</h3>
-  <ul>
-    <li>End-to-end application development workflow</li>
-    <li>Multi-language framework support</li>
-    <li>Professional UI generation with responsive design</li>
-    <li>Automatic documentation and test generation</li>
-    <li>One-click GitHub deployment</li>
+    <li>Create complete applications using a guided, multi-language interface.</li>
+    <li>Responsive UI design with integrated media support (using Pexels).</li>
+    <li>One-click deployment to GitHub through automated repository creation and code push.</li>
   </ul>
   
   <h3>🎤 Voice Assistant Integration</h3>
   <ul>
-    <li>Natural language voice search capabilities</li>
-    <li>Multi-language voice interaction support</li>
-    <li>Customizable voice settings</li>
-    <li>Spoken explanations and analysis summaries</li>
-    <li>Voice-controlled navigation and commands</li>
+    <li>Natural language voice search and command execution using Azure Speech Services.</li>
+    <li>Real-time transcription and text-to-speech feedback for hands-free interaction.</li>
   </ul>
 
-  <!-- Page-by-Page Exploration -->
-  <h2 id="page-by-page-exploration">📱 Page-by-Page Exploration</h2>
-  
-  <h3>Home Page</h3>
+  <!-- Microsoft Integrations Section -->
+  <h2 id="microsoft-integrations">⚙️ Microsoft Integrations</h2>
+  <p>
+    ORCA is built with deep integrations to several Microsoft products:
+  </p>
   <ul>
-    <li>GitHub Project Search: Text-based input for repository search</li>
-    <li>Voice Search: Integration with Microsoft's Speech Services</li>
-    <li>AI-Powered Results: Enhanced with AI-driven recommendations (Microsoft Copilot)</li>
-    <li>Quick Access Options: "I'm New" and "Create App" buttons</li>
-    <li>Project Cards: Display stars, forks, and essential repository details</li>
+    <li><strong>Azure:</strong> Hosts backend AI services, deployment pipelines, and scaling infrastructure.</li>
+    <li><strong>Visual Studio Code (inspiration):</strong> The file explorer and code editor mimic VS Code for a familiar developer experience.</li>
+    <li><strong>GitHub Copilot:</strong> Provides context-aware code analysis, generation, and debugging capabilities.</li>
+    <li><strong>Azure Speech Services:</strong> Powers voice recognition and synthesis for a natural, interactive programming interface.</li>
   </ul>
-  
-  <h3>GitHub Repository Explorer View</h3>
-  <ul>
-    <li>File Navigator: VS Code-inspired file and directory browsing</li>
-    <li>Code Viewer: Syntax highlighted display of file contents</li>
-    <li>Analysis Tabs: Different views for code, issues, pull requests, and security analysis</li>
-    <li>GitHub Copilot Assistant: AI chat interface for insights</li>
-    <li>
-      Enhanced Analysis Tools:
-      <ul>
-        <li>Explain Codebase – Detailed repository structure analysis</li>
-        <li>Explain Purpose – Business and market insights</li>
-        <li>Generate Code – AI-assisted code generation</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h3>App Creator View</h3>
-  <ul>
-    <li>Language Selection: Options like React, Python, Node.js, etc.</li>
-    <li>App Description: Input via text or voice</li>
-    <li>AI-Generated Structure: Complete application structure generated by ORCA</li>
-    <li>Code Editor: VS Code-like editing experience</li>
-    <li>Preview: Visualize the application before deployment</li>
-    <li>AI Helper Tools: Assist with debugging, optimization, and documentation</li>
-    <li>GitHub Deployment: Direct deployment to GitHub repositories</li>
-  </ul>
-
-  <!-- Microsoft Technology Integration -->
-  <h2 id="microsoft-technology-integration">⚙️ Microsoft Technology Integration</h2>
-  
-  <h3>Microsoft Copilot Integration</h3>
-  <ul>
-    <li>Intelligent code analysis and structure understanding</li>
-    <li>Bug and vulnerability detection</li>
-    <li>Context-aware code generation</li>
-    <li>Markdown documentation creation</li>
-    <li>Test case generation</li>
-  </ul>
-  <pre>
+  <pre style="background-color: #f4f4f4; padding: 1rem; border-radius: 5px;">
     <code class="javascript">
-  // Example component leveraging Microsoft Copilot for code generation
-  const CopilotRunner = () => {
-    // Processes user requests and generates code solutions
+// Sample integration of Microsoft's Speech Services
+import React from "react";
+const VoiceAssistant = () => {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  const recognition = new SpeechRecognition();
+  recognition.continuous = false;
+  recognition.interimResults = true;
+  recognition.lang = "en-US";
+  recognition.onresult = (event) => {
+    const transcript = Array.from(event.results).map(result => result[0].transcript).join("");
+    console.log("Recognized speech:", transcript);
   };
+  recognition.start();
+  return (<div>Listening...</div>);
+};
     </code>
   </pre>
-  
-  <h3>Azure Services Integration</h3>
+
+  <!-- Pages & Navigation Section -->
+  <h2 id="pages">📱 Pages &amp; Navigation</h2>
+  <h3>🏠 Home Page</h3>
+  <p>
+    The landing page offers a simple interface to search for GitHub repositories either via text input or voice commands. It includes quick‐access buttons for new users and application creation.
+  </p>
+  <h3>🔍 GitHub Explorer View</h3>
+  <p>
+    Upon selecting a repository, users are taken to a VS Code–like explorer that displays project files, lets you view content with syntax highlighting, and offers integrated AI assistance to explain or debug code.
+  </p>
+  <h3>🚀 App Creator</h3>
+  <p>
+    The App Creator provides a step-by-step guided process for building new applications. It supports multiple programming languages, integrates media and voice inputs, and includes an AI-powered code and documentation generator.
+  </p>
+  <h3>⚙️ Additional Pages</h3>
   <ul>
-    <li>Azure AI Language Understanding for natural language queries</li>
-    <li>Azure Cognitive Services powering codebase analysis</li>
-    <li>Azure DevOps for deployment pipeline capabilities</li>
-    <li>Azure Functions for backend processing</li>
+    <li><em>Settings:</em> Customize voice, language, and API preferences.</li>
+    <li><em>Deployment:</em> Manage repository creation, code push, and continuous integration.</li>
+    <li><em>AI Chat Assistant:</em> Access an always-on help desk for debugging, optimization, and documentation guidance.</li>
   </ul>
   
-  <h3>Microsoft Voice Integration</h3>
-  <ul>
-    <li>Speech recognition for voice commands</li>
-    <li>Text-to-speech for AI assistant responses</li>
-    <li>Support for multi-language voice interaction</li>
-    <li>Customizable voice settings</li>
-  </ul>
-  <pre>
-    <code class="javascript">
-  // Voice assistant functionality leveraging Microsoft's Speech Services
-  const VoiceAssistant = () => {
-    // Speech recognition implementation 
-    recognitionRef.current = new SpeechRecognition();
-    // Text-to-speech functionality
-    speechSynthesisRef.current.speak(utterance);
-  };
-    </code>
+  <!-- Architecture & Integration Diagrams -->
+  <h2 id="architecture-diagrams">🏗️ Architecture &amp; Integration Diagrams</h2>
+  
+  <h3>GitHub Repository Exploration</h3>
+  <pre style="background-color: #f8f9fa; padding: 1rem; border: 1px solid #ddd; border-radius: 5px;">
+┌─────────────────┐
+│     User        │
+└─────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│     ORCA Frontend         │
+│  (React based UI styled    │
+│   like VS Code Interface)  │
+└─────────────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│       GitHub API           │
+│  (Repository search and    │
+│   file content retrieval)  │
+└─────────────────────────────┘
   </pre>
   
-  <h3>VS Code Integration</h3>
-  <ul>
-    <li>Code editor with syntax highlighting</li>
-    <li>File navigation system</li>
-    <li>Integrated terminal</li>
-    <li>Extension compatibility</li>
-  </ul>
-
-  <!-- Architecture -->
-  <h2 id="architecture">🏗️ Architecture</h2>
-  <pre>
-┌───────────────────────────────────────────────────────────────┐
-│                        ORCA PLATFORM                          │
-├───────────┬───────────────────────────────────┬───────────────┤
-│           │                                   │               │
-│  ┌────────▼────────┐   ┌───────────────────┐  │ ┌─────────────▼─────────┐
-│  │   Home Page     │   │GitHub Explorer View│  │ │   App Creator View   │
-│  │                 │   │                   │  │ │                       │
-│  │ ┌─────────────┐ │   │ ┌───────────────┐ │  │ │ ┌───────────────────┐ │
-│  │ │Search GitHub│ │   │ │File Navigator │ │  │ │ │Language Selection │ │
-│  │ └─────────────┘ │   │ └───────────────┘ │  │ │ └───────────────────┘ │
-│  │ ┌─────────────┐ │   │ ┌───────────────┐ │  │ │ ┌───────────────────┐ │
-│  │ │Voice Search │ │   │ │Code Viewer    │ │  │ │ │App Description    │ │
-│  │ └─────────────┘ │   │ └───────────────┘ │  │ │ └───────────────────┘ │
-│  │ ┌─────────────┐ │   │ ┌───────────────┐ │  │ │ ┌───────────────────┐ │
-│  │ │Project      │ │   │ │Analysis Tabs  │ │  │ │ │Code Generation    │ │
-│  │ │Recommender  │ │   │ └───────────────┘ │  │ │ └───────────────────┘ │
-│  │ └─────────────┘ │   │ ┌───────────────┐ │  │ │ ┌───────────────────┐ │
-│  │                 │   │ │Copilot        │ │  │ │ │Code Editor        │ │
-│  │                 │   │ │Assistant      │ │  │ │ └───────────────────┘ │
-│  │                 │   │ └───────────────┘ │  │ │ ┌───────────────────┐ │
-│  │                 │   │                   │  │ │ │GitHub Deployment  │ │
-│  └─────────────────┘   └───────────────────┘  │ └───────────────────────┘
-│                                               │
-├───────────────────────────────────────────────┤
-│             MICROSOFT INTEGRATIONS             │
-├───────────┬───────────────┬───────────────────┤
-│           │               │                   │
-│ ┌─────────▼──────┐ ┌──────▼───────┐ ┌─────────▼─────────┐
-│ │Microsoft Copilot│ │Azure Services│ │Microsoft Voice API│ 
-│ └────────────────┘ └──────────────┘ └───────────────────┘
-│           ▲               ▲                  ▲
-└───────────┼───────────────┼──────────────────┘
-            │               │
-┌───────────┴───────────────┴──────────────────┐
-│               EXTERNAL APIS                   │
-├───────────────┬───────────────┬──────────────┤
-│  GitHub API   │   Groq API    │  Pexels API  │
-└───────────────┴───────────────┴──────────────┘
+  <h3>AI Code Analysis &amp; Generation</h3>
+  <pre style="background-color: #f8f9fa; padding: 1rem; border: 1px solid #ddd; border-radius: 5px;">
+┌────────────────────┐
+│      User          │
+└────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│   ORCA AI Engine           │
+│ (Uses GitHub Copilot,      │
+│  Azure AI Services, Groq)  │
+└─────────────────────────────┘
+         │
+         ▼        ┌─────────────────────────┐
+┌─────────────────────────────┐   │ Microsoft Copilot       │
+│ Code Analysis & Generation  │◄──┤ (AI code suggestions)    │
+│   (Detects bugs, suggests   │   └─────────────────────────┘
+│    optimizations, generates │
+│    responsive code)         │
+└─────────────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│  Azure Speech Services     │
+│ (Voice recognition and     │
+│   natural language support)│
+└─────────────────────────────┘
+  </pre>
+  
+  <h3>App Creator &amp; Deployment</h3>
+  <pre style="background-color: #f8f9fa; padding: 1rem; border: 1px solid #ddd; border-radius: 5px;">
+┌────────────────────┐
+│      User          │
+└────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│    App Creator UI          │
+│ (Responsive interface with │
+│  voice & media integration)│
+└─────────────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐      ┌────────────────────────┐
+│   AI Code Generation       │◄────►│  Microsoft Azure &     │
+│   & Documentation          │      │ Visual Studio Code     │
+│   (Generates project code,  │      │ (Inspires design and   │
+│    docs, tests)             │      │ coding workflow)       │
+└─────────────────────────────┘      └────────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│  GitHub Deployment         │
+│ (Automated repo creation,  │
+│  code push, CI/CD pipeline)│
+└─────────────────────────────┘
   </pre>
 
-  <!-- Installation -->
-  <h2 id="installation">⚙️ Installation</h2>
-  <h3>Clone the repository</h3>
-  <pre>
+  <!-- Installation, Usage & Deployment Section -->
+  <h2 id="installation-usage-deployment">🖥️ Installation, Usage &amp; Deployment</h2>
+  <h3>Installation</h3>
+  <pre style="background-color: #f4f4f4; padding: 1rem; border-radius: 5px;">
     <code class="bash">
 git clone https://github.com/yourusername/orca.git
 cd orca
@@ -224,97 +205,48 @@ cp .env.example .env
 npm start
     </code>
   </pre>
-  <p><strong>Environment Variables:</strong> Create a <code>.env</code> file in the project root with the following:</p>
-  <pre>
-REACT_APP_GITHUB_API_KEY=your_github_api_key
-REACT_APP_GROQ_API_KEY=your_groq_api_key
-REACT_APP_GROQ_CODING_MODEL=llama3-70b-8192
-REACT_APP_PEXELS_API_KEY=your_pexels_api_key
-REACT_APP_AZURE_SPEECH_KEY=your_azure_speech_key
-REACT_APP_AZURE_SPEECH_REGION=your_azure_region
-  </pre>
-
-  <!-- Usage -->
-  <h2 id="usage">🖥️ Usage</h2>
-  <h3>Searching GitHub Projects</h3>
-  <ul>
-    <li>Navigate to the home page</li>
-    <li>Enter search terms in the search bar or use voice search</li>
-    <li>Filter results by language, stars, or other criteria</li>
-    <li>Click on a project card to explore the repository</li>
-  </ul>
-  <h3>Exploring a Repository</h3>
-  <ul>
-    <li>Browse files using the file explorer with syntax highlighting</li>
-    <li>Examine code, issues, pull requests, and security analysis via tabs</li>
-    <li>Interact with the GitHub Copilot Assistant for insights</li>
-    <li>Use "Explain Codebase" for detailed analysis</li>
-    <li>Use "Generate Code" to build new code components</li>
-  </ul>
-  <h3>Creating an Application</h3>
-  <ul>
-    <li>Click the "Create App" button from the home page</li>
-    <li>Select your preferred programming language</li>
-    <li>Describe your application requirements via text or voice</li>
-    <li>Optionally upload mockup images for reference</li>
-    <li>Allow ORCA to generate the complete application structure</li>
-    <li>Edit files as necessary in the built-in code editor</li>
-    <li>Utilize AI helper tools for code improvement</li>
-    <li>Preview your application before deployment</li>
-    <li>Deploy directly to GitHub when ready</li>
-  </ul>
-
-  <!-- Deployment -->
-  <h2 id="deployment">🚀 Deployment Features</h2>
-  <ul>
-    <li>Direct GitHub Deployment: Deploy generated code to new repositories</li>
-    <li>Integration with Existing Repositories: Pull, integrate, and push updates</li>
-    <li>Custom Repository Configuration: Set repository name, visibility, etc.</li>
-    <li>Documentation Generation: Automatically create README and other docs</li>
-  </ul>
-  <pre>
+  <h3>Usage</h3>
+  <p>
+    Use the search bar or voice commands on the Home Page to locate GitHub projects. Then, explore file structures in the GitHub Explorer View to read file contents and invoke AI analysis for code improvements, debugging, and further discussions.
+  </p>
+  <h3>Deployment</h3>
+  <p>
+    Deploy your generated or revised code directly to GitHub. ORCA automatically handles repository creation, code pushes, and branch updates while providing real-time status messages.
+  </p>
+  
+  <!-- App Creator Section -->
+  <h2 id="app-creator">🌟 App Creator</h2>
+  <p>
+    The App Creator offers a complete workflow for designing, generating, and deploying new applications. Key aspects include multi-language support (such as React, Python, Java, Node.js, etc.), AI-driven code generation and documentation, voice-enabled inputs via Azure Speech Services, and integration with media assets (via Pexels) for a modern user interface.
+  </p>
+  <pre style="background-color: #f4f4f4; padding: 1rem; border-radius: 5px;">
     <code class="javascript">
-const handleDeploy = async () => {
-  // Authentication with GitHub API
-  const token = customGithubApiKey || GITHUB_API_KEY;
-  // Create repository with a timestamp for uniqueness
-  const timestamp = new Date().getTime().toString().slice(-6);
-  const repoName = `generated-code-${timestamp}`;
-  // Push files to the new repository
-  await pushCodeToGithub(username, repoName, generatedFiles);
+// Example: Launching the App Creator
+import React, { useState } from "react";
+const AppCreator = () =&gt; {
+  const [appDescription, setAppDescription] = useState("");
+  return (
+    <div>
+      <h1>Build Your App</h1>
+      <textarea
+        value={appDescription}
+        onChange={(e) =&gt; setAppDescription(e.target.value)}
+        placeholder="Describe the app you want to create..."
+      ></textarea>
+      {/* Additional UI and AI integration for generating code & documentation */}
+    </div>
+  );
 };
     </code>
   </pre>
 
-  <!-- App Creation -->
-  <h2 id="app-creation">🌟 App Creation</h2>
-  <p>The App Creator feature provides an end-to-end solution for building applications:</p>
-  <h3>Supported Programming Languages</h3>
-  <ul>
-    <li>React</li>
-    <li>Python</li>
-    <li>Java</li>
-    <li>Node.js</li>
-    <li>Flutter</li>
-    <li>Angular</li>
-    <li>Vue.js</li>
-    <li>C#</li>
-    <li>Ruby</li>
-  </ul>
-  <h3>AI Helper Tools</h3>
-  <ul>
-    <li>Debug Code: Identify and fix bugs</li>
-    <li>Explain Code: Detailed explanations of your code</li>
-    <li>Optimize Code: Improve performance and readability</li>
-    <li>Add Documentation: Generate comprehensive documentation</li>
-    <li>Generate Tests: Create test cases for components</li>
-  </ul>
-
-  <!-- License -->
+  <!-- License Section -->
   <h2 id="license">📄 License</h2>
-  <p>This project is licensed under the MIT License – see the LICENSE file for details.</p>
-  <p>Built with ❤️ using Microsoft technologies</p>
+  <p>
+    This project is licensed under the MIT License – see the LICENSE file for details.
+  </p>
+  <p>
+    Built with ❤️ using Microsoft technologies.
+  </p>
 
 </div>
-
-            
