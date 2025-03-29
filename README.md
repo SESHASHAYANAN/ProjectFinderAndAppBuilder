@@ -291,11 +291,9 @@ npm start
   <h3>AI-Powered Code Analysis &amp; Generation</h3>
   <ul>
     <li>Contextual analysis to identify bugs, detect issues, and suggest improvements.</li>
-    ![image](https://github.com/user-attachments/assets/88edcafc-18cc-4ae0-b6ef-485ff97e380f)
-    <li>Generation of production-ready code following modern best practices.</li>
-    ![image](https://github.com/user-attachments/assets/feafcc6b-cfad-4924-9d43-504a85979b9a)
+    <li>Generation of production-ready code following modern best practices.</li>  
     <li>In-depth explanation of code structure and behavior without manual review.</li>
-    ![image](https://github.com/user-attachments/assets/3369eadb-8633-4211-8d24-b805b06d8bed)
+  
   </ul>
   <h3>App Creation &amp; Deployment</h3>
   <ul>
