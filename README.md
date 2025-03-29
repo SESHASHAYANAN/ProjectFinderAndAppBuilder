@@ -277,16 +277,25 @@ npm start
   <!-- Key Features Section -->
   <h2 id="key-features">✨ Key Features</h2>
   <h3>GitHub Repository Exploration</h3>
+  ![image](https://github.com/user-attachments/assets/991c885c-9df3-49e9-ad10-d159a0ef7d8e)
+
   <ul>
     <li>Advanced repository search with AI-driven suggestions.</li>
+    ![image](https://github.com/user-attachments/assets/f5be11d0-ba55-4a19-ac26-d4c94ef56cd1)
     <li>Visual file explorer modeled after VS Code for intuitive navigation.</li>
+    ![image](https://github.com/user-attachments/assets/7309dc1b-148a-463f-afa7-36a1eb6169d5)
+    ![image](https://github.com/user-attachments/assets/b7c1e8cc-6bed-4d10-a0e7-be870da0cedd)
     <li>Instant retrieval and display of file contents from GitHub.</li>
+    ![image](https://github.com/user-attachments/assets/72e8a07c-6f20-432c-adbc-22f0254ef28b)
   </ul>
   <h3>AI-Powered Code Analysis &amp; Generation</h3>
   <ul>
     <li>Contextual analysis to identify bugs, detect issues, and suggest improvements.</li>
+    ![image](https://github.com/user-attachments/assets/88edcafc-18cc-4ae0-b6ef-485ff97e380f)
     <li>Generation of production-ready code following modern best practices.</li>
+    ![image](https://github.com/user-attachments/assets/feafcc6b-cfad-4924-9d43-504a85979b9a)
     <li>In-depth explanation of code structure and behavior without manual review.</li>
+    ![image](https://github.com/user-attachments/assets/3369eadb-8633-4211-8d24-b805b06d8bed)
   </ul>
   <h3>App Creation &amp; Deployment</h3>
   <ul>
@@ -394,13 +403,13 @@ npm start
   </p>
   <h3>Deployment</h3>
   <p>
-    Deploying code is handled automatically by ORCA. Users can initiate repository creation, trigger automated code pushes, and update branches seamlessly—greatly reducing the manual overhead typically associated with managing deployment pipelines.
+    ORCA handles deploying code automatically. Users can initiate repository creation, trigger automated code pushes, and update branches seamlessly, greatly reducing the manual overhead typically associated with managing deployment pipelines.
   </p>
 
   <!-- App Creator Section -->
   <h2 id="app-creator">🌟 App Creator</h2>
   <p>
-    The App Creator offers a comprehensive workflow for designing and generating a new application. It supports multiple programming languages, leverages voice and image inputs for specifying design requirements, and uses advanced AI to generate code along with accompanying documentation and test cases. Finally, it integrates with GitHub for seamless deployment.
+    The App Creator offers a comprehensive workflow for designing and generating a new application. It supports multiple programming languages, leverages voice and image inputs for specifying design requirements, and uses advanced AI to generate code, accompanying documentation, and test cases. Finally, it integrates with GitHub for seamless deployment.
   </p>
   <p>
     Use cases include rapidly prototyping a new project, generating and improving production-level code, and receiving detailed documentation that helps developers maintain and scale their applications.
