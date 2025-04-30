@@ -277,16 +277,11 @@ npm start
   <!-- Key Features Section -->
   <h2 id="key-features">✨ Key Features</h2>
   <h3>GitHub Repository Exploration</h3>
-  ![image](https://github.com/user-attachments/assets/991c885c-9df3-49e9-ad10-d159a0ef7d8e)
 
   <ul>
     <li>Advanced repository search with AI-driven suggestions.</li>
-    ![image](https://github.com/user-attachments/assets/f5be11d0-ba55-4a19-ac26-d4c94ef56cd1)
     <li>Visual file explorer modeled after VS Code for intuitive navigation.</li>
-    ![image](https://github.com/user-attachments/assets/7309dc1b-148a-463f-afa7-36a1eb6169d5)
-    ![image](https://github.com/user-attachments/assets/b7c1e8cc-6bed-4d10-a0e7-be870da0cedd)
     <li>Instant retrieval and display of file contents from GitHub.</li>
-    ![image](https://github.com/user-attachments/assets/72e8a07c-6f20-432c-adbc-22f0254ef28b)
   </ul>
   <h3>AI-Powered Code Analysis &amp; Generation</h3>
   <ul>
